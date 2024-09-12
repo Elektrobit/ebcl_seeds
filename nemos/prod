@@ -1,0 +1,36 @@
+ * feature: no-follow-recommends
+
+This seed contains all ECU packages which are fully qualified for usage in mass production.
+
+== kernel ==
+
+ * linux-generic    # The default Canonical Linux kernel
+
+== ECU packages qualified for mass production ==
+
+These packages are tested and approved for usage in mass production use-cases.
+
+ * busybox-static	# Standalone rescue shell with tons of builtin utilities
+ * docker.io        # Linux container runtime
+ * runc             # Open Container Project - runtime
+ * kmod				# tools for managing Linux kernel modules
+ * udhcpc           
+ * xfsprogs         # Utilities for managing the XFS filesystem
+ * xz-utils			# XZ-format compression utilities
+ * zstd				# fast lossless compression algorithm -- CLI tool
+
+ == Dependencies of Elektrobit addons ==
+
+EB corbos Linux makes use of netifd as network management tool.
+Netifd has a few dependencies provided by Canonical.
+
+ * libnl-3-200      # required by netifd
+ * libjson-c5       # required by netifd
+ 
+== Disputed ==
+
+Packages needed for typical automotive use-cases but not fully supported and qualified at the moment.
+
+ * linuxptp         # Precision Time Protocol (PTP, IEEE1588) implementation for Linux
+ * udhcpc           # Provides the busybox DHCP client implementation
+ * libmbedcrypto7   # crinit : Depends: libmbedcrypto7 (>= 2.28.0)
