@@ -1,0 +1,274 @@
+ * feature: no-follow-recommends
+
+This seed contains all ECU packages which are considered as debug tools.
+These packages are not qualified for mass production, but only security maintained.
+
+== ECU expected future prod ==
+
+This list of packages is intended to become prod packages in the future.
+
+ * base-files       # Debian base system miscellaneous files
+ * base-passwd      # Debian base system master password and group files
+ * busybox-static	# Standalone rescue shell with tons of builtin utilities
+ * ca-certificates  # Common CA certificates
+ * cryptsetup       # disk encryption support - startup scripts
+ * ebtables         # Ethernet bridge frame table administration
+ * ethtool          # display or change Ethernet device settings
+ * gzip				# GNU compression utilities
+ * iproute2         # networking and traffic control tools
+ * locales          # GNU C Library: National Language (locale) data support
+ * lsb-base         # Linux Standard Base init script functionality
+ * lsb-release      # Linux Standard Base version reporting utility
+ * mount            # tools for mounting and manipulating filesystems
+ * netbase          # Basic TCP/IP networking system
+ * nftables         # Program to control packet filtering rules by Netfilter project
+ * tzdata           # time zone and daylight-saving time data
+ * util-linux       # miscellaneous system utilities
+ * xfsprogs         # Utilities for managing the XFS filesystem
+ * xz-utils			# XZ-format compression utilities
+ * zstd				# fast lossless compression algorithm -- CLI tool
+
+ * systemd          # system and service manager
+ * systemd-sysv     # system and service manager - SysV links
+ * dbus			    # simple interprocess messaging system (daemon and utilities)
+ * udev					# /dev/ and hotplug management daemon
+
+ * crun         # lightweight OCI runtime for running containers
+ * podman       # engine to run OCI-based containers in Pods
+ * libesmtp6
+ * liblog4c3
+ * systemd-coredump
+
+== ECU debug tools ==
+
+ * acl					# access control list - utilities
+ * adduser				# add and remove users and groups
+ * bash					# GNU Bourne Again SHell
+ * bzip2				# high-quality block-sorting file compressor - utilities
+ * chrony				# Versatile implementation of the Network Time Protocol
+ * cloud-guest-utils	# cloud guest utilities
+ * cloud-init			# initialization and customization tool for cloud instances
+ * cpio					# GNU cpio -- a program to manage archives of files
+ * cron					# process scheduling daemon
+ * curl					# command line tool for transferring data with URL syntax
+ * dash					# POSIX-compliant shell
+ * dmsetup				# Linux Kernel Device Mapper userspace library
+ * dpkg					# Debian package management system
+ * e2fsprogs			# ext2/ext3/ext4 file system utilities
+ * fdisk				# collection of partitioning utilities
+ * file					# Recognize the type of data in a file using "magic" numbers
+ * findutils			# utilities for finding files--find, xargs
+ * gawk					# GNU awk, a pattern scanning and processing language
+ * gdb					# GNU Debugger
+ * gdisk				# GPT fdisk text-mode partitioning tool
+ * gpg					# GNU Privacy Guard -- minimalist public key operations
+ * grep					# GNU grep, egrep and fgrep
+ * grub-common			# GRand Unified Bootloader (common files)
+ * grub-efi-arm64		# GRand Unified Bootloader, version 2 (ARM64 UEFI version)
+ * grub2-common			# GRand Unified Bootloader (common files for version 2)
+ * hostname				# utility to set/show the host name or domain name
+ * iotop				# simple top-like I/O monitor
+ * iperf3				# Internet Protocol bandwidth measuring tool
+ * iputils-arping		# Tool to send ICMP echo requests to an ARP address
+ * iputils-ping			# Tools to test the reachability of network hosts
+ * less					# pager program similar to more
+ * linux-raspi			# Complete Raspberry Pi Linux kernel and headers
+ * lsof					# utility to list open files
+ * lz4					# Fast LZ compression algorithm library - tool
+ * netcat-openbsd		# TCP/IP swiss army knife
+ * openssh-client		# secure shell (SSH) client, for secure access to remote machines
+ * openssh-server		# secure shell (SSH) server, for secure access from remote machines
+ * openssh-sftp-server	# secure shell (SSH) sftp server module, for SFTP access from remote machines
+ * openssl				# Secure Sockets Layer toolkit - cryptographic utility
+ * parted				# disk partition manipulator
+ * passwd				# change and administer password and group data
+ * sed					# GNU stream editor for filtering/transforming text
+ * socat				# multipurpose relay for bidirectional data transfer
+ * squashfs-tools		# Tool to create and append to squashfs filesystems
+ * sudo					# Provide limited super user privileges to specific users
+ * tar					# GNU version of the tar archiving utility
+ * tcpdump				# command-line network traffic analyzer
+ * u-boot-rpi			# A boot loader for Raspberry PI systems
+ * ubuntu-raspi-settings	# default settings for Raspberry Pi devices
+ * unzip				# De-archiver for .zip files
+ * vim					# Vi IMproved - enhanced vi editor
+ * wget					# retrieves files from the web
+ * xz-utils				# XZ-format compression utilities
+ * zstd					# fast lossless compression algorithm -- CLI tool
+ * apt
+ * libc6-dbg
+ * nano
+ * strace
+ * gnupg
+ * u-boot-tools
+ * apt-utils
+ * grub-pc-bin
+ * systemd-timesyncd
+ * libraspberrypi-bin
+ * rpi-eeprom
+ * cloud-utils
+ * sntp
+ * dialog
+ * gdbserver
+ * iperf3
+ * traceroute
+ * dracut				# Initramfs generator using udev
+
+== Used for examples ==
+
+About to be replaced.
+
+ * ntpdate # replace with sntp?
+
+== Required by Elektrobit CI setup ==
+
+About to be reduced and clean up.
+
+ * ansible
+ * bash
+ * bc
+ * binutils         
+ * btrfs-progs      
+ * buildah          
+ * bzip2 
+ * coreutils 
+ * cryptsetup 
+ * cryptsetup-bin 
+ * curl 
+ * debbuild 
+ * debootstrap 
+ * dialog 
+ * dmsetup 
+ * dosfstools 
+ * dpkg 
+ * dpkg-dev 
+ * dracut 
+ * dracut-network 
+ * e2fsprogs 
+ * fakeroot 
+ * fuse-overlayfs 
+ * gawk 
+ * gdisk 
+ * gnupg 
+ * grep 
+ * grype 
+ * gzip 
+ * jq 
+ * kexec-tools 
+ * kmod 
+ * kpartx 
+ * l4re-tools 
+ * libacl1 
+ * libarchive13 
+ * libblkid1 
+ * libblobmsg-json1 
+ * libboost-filesystem1.74.0 
+ * libboost-thread1.74.0 
+ * libbz2-1.0 
+ * libc6 
+ * libc6 
+ * libcap2 
+ * libcmocka0 
+ * libdw1 
+ * libelf1 
+ * libesmtp6 
+ * libgcc-s1 
+ * libicu70 
+ * libjansson4 
+ * libjs-jquery 
+ * libjson-script1 
+ * liblocale-gettext-perl 
+ * liblog4c3 
+ * liblua-api-perl 
+ * liblz4-1 
+ * liblzma5 
+ * libmbedcrypto7 
+ * libmnl0 
+ * libmount1 
+ * libnettle8 
+ * libnuma1 
+ * libpcre2-8-0 
+ * libselinux1 
+ * libslang2 
+ * libsqlite3-0 
+ * libssl3 
+ * libssl3 
+ * libstdc++6 
+ * libubox1 
+ * libubus1 
+ * libuci1 
+ * libudev1 
+ * libunwind8 
+ * libxml2 
+ * libxml2-utils 
+ * libzstd1 
+ * linux-base 
+ * linux-tools-common 
+ * lsb-release 
+ * lshw 
+ * lsof 
+ * lvm2 
+ * mdadm 
+ * mtools 
+ * musl 
+ * nftables 
+ * openssh-client 
+ * openssh-server 
+ * openssl 
+ * parted 
+ * patch 
+ * pax 
+ * perl 
+ * podman 
+ * pv 
+ * python3 
+ * python3-blessed 
+ * python3-cerberus 
+ * python3-cryptography 
+ * python3-docopt 
+ * python3-editor 
+ * python3-embdgen-cominit 
+ * python3-embdgen-config-yaml 
+ * python3-embdgen-core 
+ * python3-fallocate 
+ * python3-inquirer 
+ * python3-kiwi 
+ * python3-kiwi-boxed-plugin 
+ * python3-lxml 
+ * python3-parted 
+ * python3-progressbar2 
+ * python3-python-utils 
+ * python3-pyxattr 
+ * python3-readchar 
+ * python3-requests 
+ * python3-rpm 
+ * python3-setuptools 
+ * python3-simplejson 
+ * python3-six 
+ * python3-strictyaml 
+ * python3-typing-extensions 
+ * python3-urllib3 
+ * python3-yaml 
+ * python3:any 
+ * qemu-kvm 
+ * qemu-system-arm 
+ * qemu-user-static 
+ * qemu-utils 
+ * rsync 
+ * screen 
+ * skopeo 
+ * squashfs-tools 
+ * sudo 
+ * sysroot-manager 
+ * systemd-sysv 
+ * tar 
+ * util-linux 
+ * uuid 
+ * wget 
+ * whiptail 
+ * wireless-regdb 
+ * xfsprogs 
+ * xorriso 
+ * xxd 
+ * xz-utils 
+ * zlib1g 
