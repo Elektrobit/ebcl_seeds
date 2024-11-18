@@ -113,6 +113,10 @@ This list of packages is intended to become prod packages in the future.
  * iperf3
  * traceroute
  * dracut				# Initramfs generator using udev
+ * psmisc               # provides killall, used by appdev images
+ * libjsoncpp25         # used by example apps
+ * libjsoncpp-dev       # used by example apps
+ * python3-openssl      # required by uboot tools for RDB2
 
 == Used for examples ==
 
