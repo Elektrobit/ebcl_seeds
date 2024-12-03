@@ -66,6 +66,7 @@ This list of packages is intended to become prod packages in the future.
  * grub-common			# GRand Unified Bootloader (common files)
  * grub-efi-arm64		# GRand Unified Bootloader, version 2 (ARM64 UEFI version)
  * grub2-common			# GRand Unified Bootloader (common files for version 2)
+ * grub-efi             # GRand Unified Bootloader, version 2 (dummy package)
  * hostname				# utility to set/show the host name or domain name
  * iotop				# simple top-like I/O monitor
  * iperf3				# Internet Protocol bandwidth measuring tool
@@ -117,6 +118,9 @@ This list of packages is intended to become prod packages in the future.
  * libjsoncpp25         # used by example apps
  * libjsoncpp-dev       # used by example apps
  * python3-openssl      # required by uboot tools for RDB2
+ * build-essential      # Informational list of build-essential packages
+ * g++                  # GNU C++ compiler
+ * gcc                  # GNU C compiler
 
 == Used for examples ==
 
