@@ -121,6 +121,7 @@ This list of packages is intended to become prod packages in the future.
  * build-essential      # Informational list of build-essential packages
  * g++                  # GNU C++ compiler
  * gcc                  # GNU C compiler
+ * libarchive-zip-perl  # Required by HV tooling
 
 == Used for examples ==
 
