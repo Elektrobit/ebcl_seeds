@@ -9,7 +9,8 @@ This list of packages is intended to become prod packages in the future.
 
  * base-files       # Debian base system miscellaneous files
  * base-passwd      # Debian base system master password and group files
- * busybox-static	# Standalone rescue shell with tons of builtin utilities
+ * busybox-static	  # Standalone rescue shell with tons of builtin utilities
+ * busybox        	# Standalone rescue shell with tons of builtin utilities
  * ca-certificates  # Common CA certificates
  * cryptsetup       # disk encryption support - startup scripts
  * ebtables         # Ethernet bridge frame table administration
