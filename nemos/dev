@@ -209,7 +209,9 @@ About to be reduced and clean up.
  * libsqlite3-0 
  * libssl3 
  * libssl3 
- * libstdc++6 
+ * libstdc++6
+ * libtss2-tctildr0
+ * libtss2-esys-3.0.2-0
  * libubox1 
  * libubus1 
  * libuci1 
