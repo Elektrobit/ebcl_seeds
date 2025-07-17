@@ -138,38 +138,56 @@ About to be reduced and clean up.
  * bash
  * bc
  * binutils         
+ * bison
+ * bmap-tools
+ * bsdutils
  * btrfs-progs      
  * buildah          
  * bzip2 
- * coreutils 
  * clang-format         # Required for building userland utils
  * clang-tidy           # Required for building userland utils
+ * cmake
  * codespell            # Required for building userland utils
+ * coreutils 
+ * crossbuild-essential-amd64
+ * crossbuild-essential-arm64
  * cryptsetup 
  * cryptsetup-bin 
  * curl 
  * debbuild 
+ * debhelper
  * debootstrap 
+ * devscripts
+ * dh-python
  * dialog 
+ * diffutils
  * dmsetup 
+ * docbook-to-man
  * dosfstools 
+ * doxygen
  * doxygen              # Required for building userland utils
  * dpkg 
  * dpkg-dev 
  * dracut 
  * dracut-network 
  * e2fsprogs 
+ * equivs
  * fakeroot 
+ * flex
  * fuse-overlayfs 
  * gawk 
+ * gcovr
  * gdisk 
+ * git
  * gnupg 
+ * graphviz
  * graphviz             # Required for building userland utils
  * grep 
  * grype 
  * gzip 
  * jq 
  * kexec-tools 
+ * kmod
  * kmod 
  * kpartx 
  * l4re-tools 
@@ -183,15 +201,19 @@ About to be reduced and clean up.
  * libc6 
  * libc6 
  * libcap2 
- * libcmocka0 
+ * libcmocka-dev
  * libcmocka-dev        # Required for building userland utils
+ * libcmocka0 
  * libdw1 
  * libelf1 
  * libesmtp6 
  * libgcc-s1 
+ * libgmock-dev
+ * libgtest-dev
  * libicu70 
  * libjansson4 
  * libjs-jquery 
+ * libjson-c-dev
  * libjson-script1 
  * liblocale-gettext-perl 
  * liblog4c3 
@@ -199,19 +221,27 @@ About to be reduced and clean up.
  * liblz4-1 
  * liblzma5 
  * libmbedcrypto7 
+ * libmnl-dev
  * libmnl0 
+ * libmodule-scandeps-perl
  * libmount1 
+ * libncurses-dev
  * libnettle8 
  * libnuma1 
  * libpcre2-8-0 
+ * libpfm4
+ * libpython3.12t64
  * libselinux1 
  * libslang2 
  * libsqlite3-0 
+ * libssl-dev
  * libssl3 
  * libssl3 
  * libstdc++6
- * libtss2-tctildr0
  * libtss2-esys-3.0.2-0
+ * libtss2-esys-3.0.2-0t64
+ * libtss2-tctildr0
+ * libtss2-tctildr0t64
  * libubox1 
  * libubus1 
  * libuci1 
@@ -222,6 +252,7 @@ About to be reduced and clean up.
  * libzstd1 
  * linux-base 
  * linux-tools-common 
+ * login
  * lsb-release 
  * lshw 
  * lsof 
@@ -229,6 +260,8 @@ About to be reduced and clean up.
  * mdadm 
  * mtools 
  * musl 
+ * musl-tools
+ * ncurses-bin
  * nftables 
  * openssh-client 
  * openssh-server 
@@ -237,8 +270,10 @@ About to be reduced and clean up.
  * patch 
  * pax 
  * perl 
+ * pkg-config
  * podman 
  * pv 
+ * pybuild-plugin-pyproject
  * python3 
  * python3-blessed 
  * python3-cerberus 
@@ -249,12 +284,18 @@ About to be reduced and clean up.
  * python3-embdgen-config-yaml 
  * python3-embdgen-core 
  * python3-fallocate 
+ * python3-hatchling
  * python3-inquirer 
  * python3-kiwi 
  * python3-kiwi-boxed-plugin 
  * python3-lxml 
+ * python3-msgpack
  * python3-parted 
+ * python3-pexpect
+ * python3-platformdirs
+ * python3-poetry
  * python3-progressbar2 
+ * python3-pytest
  * python3-python-utils 
  * python3-pyxattr 
  * python3-readchar 
@@ -267,6 +308,7 @@ About to be reduced and clean up.
  * python3-typing-extensions 
  * python3-urllib3 
  * python3-yaml 
+ * python3-zstandard
  * python3:any 
  * qemu-kvm 
  * qemu-system-arm 
