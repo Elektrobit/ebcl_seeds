@@ -9,7 +9,8 @@ This list of packages is intended to become prod packages in the future.
 
  * base-files       # Debian base system miscellaneous files
  * base-passwd      # Debian base system master password and group files
- * busybox-static	# Standalone rescue shell with tons of builtin utilities
+ * busybox-static	  # Standalone rescue shell with tons of builtin utilities
+ * busybox        	# Standalone rescue shell with tons of builtin utilities
  * ca-certificates  # Common CA certificates
  * cryptsetup       # disk encryption support - startup scripts
  * ebtables         # Ethernet bridge frame table administration
@@ -141,6 +142,9 @@ About to be reduced and clean up.
  * buildah          
  * bzip2 
  * coreutils 
+ * clang-format         # Required for building userland utils
+ * clang-tidy           # Required for building userland utils
+ * codespell            # Required for building userland utils
  * cryptsetup 
  * cryptsetup-bin 
  * curl 
@@ -149,6 +153,7 @@ About to be reduced and clean up.
  * dialog 
  * dmsetup 
  * dosfstools 
+ * doxygen              # Required for building userland utils
  * dpkg 
  * dpkg-dev 
  * dracut 
@@ -159,6 +164,7 @@ About to be reduced and clean up.
  * gawk 
  * gdisk 
  * gnupg 
+ * graphviz             # Required for building userland utils
  * grep 
  * grype 
  * gzip 
@@ -178,6 +184,7 @@ About to be reduced and clean up.
  * libc6 
  * libcap2 
  * libcmocka0 
+ * libcmocka-dev        # Required for building userland utils
  * libdw1 
  * libelf1 
  * libesmtp6 
@@ -202,7 +209,9 @@ About to be reduced and clean up.
  * libsqlite3-0 
  * libssl3 
  * libssl3 
- * libstdc++6 
+ * libstdc++6
+ * libtss2-tctildr0
+ * libtss2-esys-3.0.2-0
  * libubox1 
  * libubus1 
  * libuci1 
