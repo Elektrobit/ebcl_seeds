@@ -14,7 +14,7 @@ These packages are tested and approved for usage in mass production use-cases.
  * docker.io        # Linux container runtime
  * runc             # Open Container Project - runtime
  * kmod				# tools for managing Linux kernel modules
- * udhcpc           
+ * udhcpc           # lightweight DHCP, needed for networking
  * xfsprogs         # Utilities for managing the XFS filesystem
  * xz-utils			# XZ-format compression utilities
  * zstd				# fast lossless compression algorithm -- CLI tool
